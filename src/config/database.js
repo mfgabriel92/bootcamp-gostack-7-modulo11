@@ -1,4 +1,4 @@
-require('dotenv/config')
+import '../bootstrap'
 
 module.exports = {
   dialect: process.env.DB_DIALECT,
